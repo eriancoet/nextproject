@@ -1,6 +1,12 @@
 import Link from 'next/link'
 import Layout from '../components/MyLayout'
 
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7XF7DGJ7JB');
+
 export default () => (
   <Layout>
     <h1>About</h1>
