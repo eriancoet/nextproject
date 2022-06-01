@@ -3,17 +3,14 @@ import Layout from '../components/MyLayout'
 import Image from 'react-bootstrap/Image'
 
 
-window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7XF7DGJ7JB');
-  
 const linkStyle = {
-   marginRight: 15
- }
+  marginRight: 15,
+  
+}
+
 export default () => (
 	<Layout>
+
        <Image className="img" src="/static/images/ITPic.jpeg/" thumbnail  />
 	    <h1>Home</h1>
        <p>Welcome to my Portfolio,<br />
